@@ -3,3 +3,5 @@
 testando alguns commits
 
 import.sql realizado
+
+classe game finalizada
