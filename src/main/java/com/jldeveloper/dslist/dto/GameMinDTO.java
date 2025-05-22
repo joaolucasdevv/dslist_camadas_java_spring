@@ -1,6 +1,6 @@
 package com.jldeveloper.dslist.dto;
 
-import jakarta.persistence.Column;
+import com.jldeveloper.dslist.entities.Game;
 
 public class GameMinDTO {
 
@@ -11,11 +11,12 @@ public class GameMinDTO {
     private String shortDescription;
 
     public GameMinDTO() {
+
     }
 
     public GameMinDTO(Game entity) {
         id = entity.getId();
-        title = entity.geTitle();
+        title = entity.getTitle();
         year = entity.getYear();
         imgUrl = entity.getImgUrl();
         shortDescription = entity.getShortDescription();
