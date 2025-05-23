@@ -1,4 +1,4 @@
 package com.jldeveloper.dslist.controllers;
 
-public class Controller {
+public class GameController {
 }
