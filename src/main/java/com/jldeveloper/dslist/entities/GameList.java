@@ -1,5 +1,7 @@
 package com.jldeveloper.dslist.entities;
 
+import java.util.Objects;
+
 public class GameList {
 
     private Long id;
@@ -28,4 +30,17 @@ public class GameList {
     public void setName(String name) {
         this.name = name;
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (o == null || getClass() != o.getClass()) return false;
+        GameList gameList = (GameList) o;
+        return Objects.equals(id, gameList.id);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hashCode(id);
+    }
+
 }
