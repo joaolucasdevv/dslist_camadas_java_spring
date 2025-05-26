@@ -20,3 +20,6 @@ um ambiente de produção.
 * Docker
 * Postman
 
+## Arquitetura em camadas
+
+![arquitetura camadas](img/camadas.webp)
