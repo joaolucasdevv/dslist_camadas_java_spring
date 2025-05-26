@@ -23,3 +23,9 @@ um ambiente de produção.
 ## Arquitetura em camadas
 
 ![arquitetura camadas](img/camadas.webp)
+
+Em um padrão de arquitetura em camadas, nós organizamos
+a aplicação em camadas separadas, onde cada camada tem
+uma responsabilidade específica e se comunica apenas com
+a camada diretamente abaixo ou acima dela.
+
