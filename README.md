@@ -27,5 +27,17 @@ um ambiente de produção.
 Em um padrão de arquitetura em camadas, nós organizamos
 a aplicação em camadas separadas, onde cada camada tem
 uma responsabilidade específica e se comunica apenas com
-a camada diretamente abaixo ou acima dela.
+a camada diretamente abaixo ou acima dela. 
+
+**A aplicação foi implementada utilizando um conceito de organização em Modules e Packages**
+
+### Esse projeto foi dividido em três camadas:
+* Repository
+  * Responsável pela persistência de dados (acesso ao banco), trabalha diretamente com as Entities que são ORM's.
+* Service
+  * Responsável pela regra do negócio, recebe Entities do Repository, trabalha com elas, transforma em DTO's e envia para o Controller.
+* Controller
+  * Responsável pela entrada e saída de dados da aplicação (via API REST), trabalha exclusivamente com DTO's.
+
+
 
