@@ -1,7 +1,15 @@
-# dslist_camadas_java_spring (Projeto em construção)
+# Lista de games DSlist
 
-testando alguns commits
+Projeto criado na imersão Java com Spring do professor
+Nélio Alves.
 
-import.sql realizado
+### Objetivo:
+Criar uma aplicação WEB baseado em arquitetura de camadas
+(layered architecture), utilizando o banco de dados h2 para
+criar um ambiente de teste e PostgreSQL em Docker para simular
+um ambiente de produção.
 
-classe game finalizada
+### Ferramentas utilizadas:
+* Java
+* Spring Boot com Spring Initializr
+* 
