@@ -39,5 +39,7 @@ a camada diretamente abaixo ou acima dela.
 * Controller
   * Responsável pela entrada e saída de dados da aplicação (via API REST), trabalha exclusivamente com DTO's.
 
+### Estrutura das pastas em camadas:
 
+![arquitetura camadas](img/estruturaPastas.png)
 
