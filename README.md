@@ -90,3 +90,10 @@ Assim, alterando a posição do game "Cupheard" na posição
 3 para a posição 1
 
 ![arquitetura camadas](img/positionChanged.png)
+
+## Ambiente simulado de produção
+Para simular um ambiente de produção foi criado um container
+no Docker para carregar um banco de dados do PostgreSQL que 
+realiza a mesma função do nosso banco de testes H2
+
+![arquitetura camadas](img/postgresTeste.png)
