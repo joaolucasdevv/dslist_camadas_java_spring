@@ -20,14 +20,14 @@ um ambiente de produção.
 * Docker
 * Postman
 
-## Arquitetura em camadas
+## Arquitetura em camadas:
 
 ![arquitetura camadas](img/camadas.webp)
 
 Em um padrão de arquitetura em camadas, nós organizamos
 a aplicação em camadas separadas, onde cada camada tem
 uma responsabilidade específica e se comunica apenas com
-a camada diretamente abaixo ou acima dela. 
+a camada diretamente abaixo ou acima dela.
 
 **A aplicação foi implementada utilizando um conceito de organização em Modules e Packages**
 
@@ -42,4 +42,25 @@ a camada diretamente abaixo ou acima dela.
 ### Estrutura das pastas em camadas:
 
 ![arquitetura camadas](img/estruturaPastas.png)
+
+### Modelo de domínio:
+
+![arquitetura camadas](img/dslist-model.png)
+
+### Configuração do do H2 (ambiente de teste):
+#### application-test.properties:
+```java
+# H2 Connection
+spring.datasource.url=jdbc:h2:mem:testdb
+spring.datasource.username=sa
+spring.datasource.password=
+
+# H2 Client
+spring.h2.console.enabled=true
+spring.h2.console.path=/h2-console
+
+# Show SQL
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+
 
