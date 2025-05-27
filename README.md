@@ -1,7 +1,6 @@
 # Lista de games DSlist
 
-### Projeto criado na imersão Java com Spring do professor
-Nélio Alves.
+### Projeto criado na imersão Java com Spring da plataforma DevSuperior.
 
 ## Objetivo:
 Criar uma aplicação WEB baseado em arquitetura de camadas
