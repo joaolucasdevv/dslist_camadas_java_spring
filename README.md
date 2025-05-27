@@ -47,20 +47,9 @@ a camada diretamente abaixo ou acima dela.
 
 ![arquitetura camadas](img/dslist-model.png)
 
-### Configuração do do H2 (ambiente de teste):
-#### application-test.properties:
-```java
-# H2 Connection
-spring.datasource.url=jdbc:h2:mem:testdb
-spring.datasource.username=sa
-spring.datasource.password=
+### Ambiente de teste H2 Database
 
-# H2 Client
-spring.h2.console.enabled=true
-spring.h2.console.path=/h2-console
+![arquitetura camadas](img/h2Teste.png)
 
-# Show SQL
-spring.jpa.show-sql=true
-spring.jpa.properties.hibernate.format_sql=true
-
-
+### Endpoint GET Games
+Endpoint utilizado para puxar todos os games, porém
