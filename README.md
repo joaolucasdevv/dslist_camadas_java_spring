@@ -97,3 +97,15 @@ no Docker para carregar um banco de dados do PostgreSQL que
 realiza a mesma função do nosso banco de testes H2
 
 ![arquitetura camadas](img/postgresTeste.png)
+
+Podemos realizar a mesma requisição para alterar a
+posição de algum game na lista
+
+![arquitetura camadas](img/postgresChanged.png)
+
+Através do banco de dados do PostegreSQL inserimos
+mais uma lista em nosso banco de dados "ID: 3, name: Esportes" , podemos ver se
+de fato foi inserida corretamente através do Postman
+
+![arquitetura camadas](img/newListPostgres.png)
+
