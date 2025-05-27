@@ -53,3 +53,40 @@ a camada diretamente abaixo ou acima dela.
 
 ### Endpoint GET Games
 Endpoint utilizado para puxar todos os games, porém
+com informações de somente 5 de 9 campos
+
+![arquitetura camadas](img/getGames.png)
+
+### Endpoint GET GamesByID
+Endpoint utilizado para puxar um game específico com
+todas as suas informações pelo seu ID
+
+![arquitetura camadas](img/gamesById.png)
+
+### Endpoint GET GamesList
+Endpoint utilizado para puxar todas as listas de gêneros
+de games
+
+![arquitetura camadas](img/gamesList.png)
+
+### Endpoint GET GamesByList
+Endpoint utilizado para puxar os games por lista de gênero
+
+![arquitetura camadas](img/gamesByList.png)
+
+### Requisição para mudar o posição de um game na lista
+Foi desenvolvido na aplicação um método para alterar a 
+posição de um game dentro da lista
+
+#### consulta SQL para visualizar as posições de um game na lista
+![arquitetura camadas](img/orgParaTestPosition.png)
+para alterar a posição temos um
+método HTTP de POST com dados de origem da posição e
+destino da posição
+
+![arquitetura camadas](img/requisicaoParaTrocarPosicao.png)
+
+Assim, alterando a posição do game "Cupheard" na posição
+3 para a posição 1
+
+![arquitetura camadas](img/positionChanged.png)
