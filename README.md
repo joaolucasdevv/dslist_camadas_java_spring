@@ -86,7 +86,7 @@ destino da posição
 
 ![arquitetura camadas](img/requisicaoParaTrocarPosicao.png)
 
-Assim, alterando a posição do game "Cupheard" na posição
+Assim, alterando a posição do game "Cuphead" na posição
 3 para a posição 1
 
 ![arquitetura camadas](img/positionChanged.png)
